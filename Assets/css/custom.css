@@ -1,0 +1,201 @@
+/*
+* {
+  border-radius: 0 !important;
+}
+*/
+
+body {
+    color: black;
+    text-align: center;
+    font-family: Segoe UI;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    user-select: none;
+    cursor: default
+        /*
+        background-color: #93B7BA;
+        */
+}
+#check {
+    margin: 0px;
+    padding: 0px;
+}
+#skip {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 10px;
+}
+@font-face {
+    font-family: "Digital";
+    src: url(../fonts/digital-7.ttf);
+}
+#timer, #timeIsUp, .title, #mode, #toprightinfo {
+    font-family: Digital;
+}
+#mode {
+    zoom: 150%;
+}
+#totalscore, #modeoptions, #check, #scoreword {
+    zoom: 300%;
+}
+#title {
+    font-size: 80px;
+}
+#timer {
+    font-size: 100px;
+}
+#timeIsUp {
+    color: red;
+    font-size: 170px;
+}
+#timerContainer {
+    height: 140px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    box-shadow: 0px 0px 5px white inset;
+    border-radius: 50%;
+}
+#title {
+    color: black;
+    text-decoration: none;
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#word {
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 50px;
+    text-transform: uppercase;
+}
+.modal-content {
+    box-shadow: none;
+}
+.fade {
+    background-color: transparent;
+}
+#quitcontent {
+    height: 100px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px black;
+    display: true;
+}
+#playerNameContent {
+    height: 180px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px black;
+    display: true;
+}
+.centeredInput {
+    text-align: center;
+    border-radius: 20px;
+}
+#playerNameInput {
+    font-family: Digital;
+    font-size: 40px;
+}
+.lower-center {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lower-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+.centerFixed {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#menu, #modemenu {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#menu, #modeoptions {
+    zoom: 400%;
+}
+.modeoptionsbutton {
+    width: 100px;
+    display: block;
+}
+#modemenuback {
+    zoom: 200%;
+    position: fixed;
+    top: 20%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+}
+#quitmessage {
+    color: gray;
+}
+
+/*Full-Page Div*/
+#backdrop {
+    position: fixed; top: 0; right: 0; bottom: 0; left: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+}
+#toprightinfo {
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    right: 10px;
+}
+#quitgame {
+    zoom: 400%;
+    margin: 2.5px;
+}
+#timerContainer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-top: 50px;
+    margin: 10px;
+}
+#result {
+    font-size: 20px;
+}
+.modal-body {
+    text-align: left;
+}
+#notopscore {
+    color: darkgray;
+    text-align: center;
+}
+.modescores {
+    width: 33%;
+    display: inline-block;
+    background-color: #EEEEEE;
+    text-align: center;
+    border-radius: 20px;
+}
+.modetitle {
+    margin: 0px;
+    padding: 0px;
+}
+th, td {
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+.modal-dialog {
+    max-height: 100px;
+    width: 90%;
+}
